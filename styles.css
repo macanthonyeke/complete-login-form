@@ -1,0 +1,343 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-Variable.ttf);
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-Variable.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(Outfit-Variable.ttf);
+}
+
+html {
+    background-color: #e5e5e5;
+}
+
+body {
+    background-color: #fff;
+    width: 60%;
+    margin: 20px auto;
+    padding-bottom: 100px;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 50px) {
+    body {
+        width: 100%;
+        border-radius: 0;
+    }
+}
+
+header {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/* Login Account */
+
+header div {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.login-account {
+    /*position: absolute;*/
+    width: 170px;
+    height: 21px;
+    /*left: 18px;
+    top: 55px;*/
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+/* User */
+
+header img {
+    /*position: absolute;*/
+    width: 20px;
+    height: 19px;
+    /*left: 164px;
+    top: 57px;*/
+    align-self: center;
+}
+
+.para {
+    width: 244px;
+    height: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #636363;
+    margin-top: -10px;
+    margin-bottom: 25px;
+    padding-right: 20px;
+}
+
+.rectangle-29 {
+    width: 85%;
+    height: 50px;
+    border: 1px solid #000000;
+    filter: drop-shadow(0px 8px 20px rgba(0, 0, 0, 0.08));
+    border-radius: 8px;
+    margin: 25px auto;
+    background-color: #E5E5E5;
+}
+
+.email button {
+    position: absolute;
+    height: 50px;
+    width: 50%;
+    border: none;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+/* identical to box height */
+    color: #000000;
+    border-radius: 8px 0 0 8px;
+}
+
+.phone-number button {
+    height: 50px;
+    width: 50%;
+    float: right;
+    border: none;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+/* identical to box height */
+    color: #000000;
+    border-radius: 0 8px 8px 0;
+}
+
+button:active {
+    background: #6A00BF;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+}
+
+form {
+    margin-top: 25px;
+}
+
+input {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #818181;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+}
+
+input[id="email"] {
+    width: 90%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #818181;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+    margin: 0 auto;
+    padding-left: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #6F6F6F;
+
+
+}
+
+input[id="pwd"] {
+    width: 90%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #818181;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+    margin: 15px auto;
+    padding-left: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #6F6F6F;
+}
+
+input[id="dob"] {
+    width: 90%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #818181;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+    margin: 15px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #6F6F6F;
+}
+
+.fpwd {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4285F4;
+    float: right;
+    padding-right: 24px;
+    margin: -3px 0 45px;
+    
+}
+
+.uei {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4285F4;
+    float: left;
+    padding-left: 24px;
+    margin: -3px 0 45px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+input[id="submit"] {
+    width: 90%;
+    height: 55px;
+    background: #190152;
+    border-radius: 12px;
+    margin: 45px auto 0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+input[id="tel"] {
+    width: 90%;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid #818181;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.12));
+    border-radius: 12px;
+    margin: 0 auto;
+    padding-left: 20px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #6F6F6F;
+}
+
+.other {
+    margin: 20px auto;
+    display: flex;
+    gap: 8px;
+}
+
+.line {
+    position: relative;
+    top: 18px;
+    width: 60px;
+    height: 0px;
+    border: 0.2px dashed #A39797;  
+}
+
+.other a {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #757171;
+}
+
+.Glogo {
+    margin: 0 auto;
+    display: flex;
+    gap: 15px;
+    box-sizing: border-box;
+}
+
+.Glogo img {
+    width: 22px;
+    height: 22px;
+}
+
+.Glogo a {
+    width: 51px;
+    height: 21px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #000000;
+    margin-top: 0px;
+}
+
+.footer {
+    margin: 10px auto 100px;
+}
+
+.footer p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #636363;
+}
+
+.footer span {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    color: #000;
+}
+
+
